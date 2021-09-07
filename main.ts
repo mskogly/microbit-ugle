@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     servos.P0.setAngle(45)
 })
-servos.P0.setAngle(90)
+servos.P0.setAngle(45)
 loops.everyInterval(randint(3000, 60000), function () {
     servos.P0.setAngle(0)
     basic.pause(500)
